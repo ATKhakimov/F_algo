@@ -15,7 +15,6 @@ class DataInput:
     def __init__(self, F_input):
         self.F_input = F_input
 
-    F = dict(min=0, max=100, deg=10 ** (-9), err=0.1)
     F_min = 0
     F_max = 100
     F_deg = 10 ** (-9)
